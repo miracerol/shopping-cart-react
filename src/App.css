@@ -1,0 +1,87 @@
+.App {
+  text-align: center;
+}
+
+.MyTable{
+  margin-left: auto;
+  margin-right: auto;
+  width: 800px;
+  border-collapse: collapse;
+  border-width: 0px;
+  border-color:forestgreen;
+  border-style: solid;
+  color: black;
+  
+
+}
+#topTable{
+  border-bottom-width: 3px;
+  width: 500px;
+}
+
+.MyTable td, .MyTable th {
+  border-width: 0px;
+  border-color: forestgreen;
+  border-style: solid;
+  padding: 5px;
+}
+.MyTable th{
+  color: white;
+}
+
+#td2{
+  background-color: lightgrey;
+}
+
+#buy{
+  background-color: forestgreen;
+}
+
+.ProductName{
+  color: forestgreen;
+}
+.ProductPrice{
+  color:blue;
+}
+
+.MyTable thead {
+  background-color: forestgreen;
+}
+
+.BasketTable{
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.AddBasketButton{
+  height: 40px;
+  width: 120px;
+  border-radius: 12px;
+  border-color: grey;
+  border-width: 1px;
+  background-color: white;
+}
+
+.AddBasketButton:hover{
+  transform: scale(1.1);
+  background-color: peachpuff;
+}
+
+.CountButton{
+  text-align: center;
+  border-radius: 50%;
+  height: 35px;
+  width: 35px;
+  margin-left: 10px;
+  margin-right: 10px;
+
+}
+.CountButton:hover{
+  background-color: bisque;
+}
+.CountButton:active{
+  transform: scale(0.9);
+}
+#topTable tr:nth-of-type(even) {
+  background-color: lightgrey;
+}
